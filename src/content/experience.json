@@ -1,0 +1,57 @@
+{
+  "intro": "My research journey has focused on applying deep learning to challenging computer vision problems across multiple domains. Through internships at IISc and NITK, I have worked on multi-object tracking, remote sensing, and medical imaging, gaining experience in experimentation, benchmarking, model evaluation, and system-level analysis.",
+  "entries": [
+    {
+      "organization": "Indian Institute of Science (IISc)",
+      "logo": "images/organizations/iisc.png",
+      "role": "Research Intern — VISTA Lab",
+      "advisor": "Dr. Punit Rathore",
+      "duration": "Mar 2026 — Present",
+      "location": "Bangalore, India",
+      "description": "Research on multi-object tracking for traffic surveillance.",
+      "highlights": [
+        "Investigated online and offline multi-object tracking methods for traffic surveillance, implementing and evaluating multiple tracking algorithms to understand identity preservation, track association, and failure modes in real-world CCTV data.",
+        "Contributing to an in-house traffic analytics platform at IISc, testing detection and tracking pipelines, debugging model failures, and making incremental improvements to enhance tracking consistency and system reliability."
+      ],
+      "links": []
+    },
+    {
+      "organization": "National Institute of Technology Karnataka (NITK)",
+      "logo": "images/organizations/nitk.png",
+      "role": "Research Intern — Deep Learning and Computer Vision Lab",
+      "advisor": "Dr. Shyam Lal",
+      "duration": "July 2025 — February 2026",
+      "location": "Surathkal, India",
+      "description": "Dual-domain deep learning research in Remote Sensing and Medical Imaging.",
+      "highlights": [
+        "Conducted dual-domain deep learning research in Remote Sensing and Medical Imaging, leading to a first-author manuscript submission to IEEE J-STARS.",
+        "Developed a controlled benchmarking framework for high-resolution building change detection on LEVIR-CD and EGY-BCD datasets, managing preprocessing for 6,000+ image pairs.",
+        "Evaluated 8 widely used change detection architectures under a standardized evaluation framework to build consistent performance baselines."
+      ],
+      "links": [
+        {
+          "label": "Certificate",
+          "url": "https://github.com/chiranthk1704/Certificates_nd_Notes/blob/main/Certificates/NITK_Internship.pdf"
+        }
+      ]
+    },
+    {
+      "organization": "AIQuantum Smart Solutions Pvt. Ltd., NITK STEP Incubator",
+      "logo": "images/organizations/aiquantum.png",
+      "role": "Deep Learning Intern",
+      "duration": "Apr 2025 — May 2025",
+      "location": "Remote",
+      "description": "Semantic segmentation for aerial imagery and foundational deep learning work.",
+      "highlights": [
+        "Implemented attention-augmented U-Net variants for road segmentation on aerial satellite imagery.",
+        "Reimplemented convolution, pooling, and activation layers from scratch in NumPy to validate gradient propagation and numerical stability against framework outputs."
+      ],
+      "links": [
+        {
+          "label": "Certificate",
+          "url": "https://github.com/chiranthk1704/Offical/blob/main/Certificates/AIQuantum.pdf"
+        }
+      ]
+    }
+  ]
+}

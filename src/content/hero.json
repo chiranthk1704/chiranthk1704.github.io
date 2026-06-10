@@ -1,0 +1,19 @@
+{
+  "name": "Chiranth K",
+  "location": "Bangalore, Karnataka, India",
+  "headline": "Deep Learning Researcher working across",
+  "headlineAreas": ["Computer Vision", "Medical Imaging", "Multi-Object Tracking"],
+  "intro": "I work on deep learning research problems — benchmarking architectures, analyzing failure modes, and building models that are understood rather than just trained. Currently a research intern at the Indian Institute of Science.",
+  "buttons": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/chiranthk1704",
+      "icon": "github"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/chiranth-k-8b803a308/",
+      "icon": "linkedin"
+    }
+  ]
+}

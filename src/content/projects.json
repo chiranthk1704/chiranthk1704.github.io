@@ -1,0 +1,52 @@
+{
+  "intro": "These projects reflect my interest in understanding, reproducing, and improving deep learning systems. My work spans medical image classification, change detection from satellite imagery, road segmentation, and plant species recognition, with an emphasis on experimentation, quantitative evaluation, and architectural analysis.",
+  "entries": [
+    {
+      "title": "Histopathological Cancer Classification (Colon & Prostate)",
+      "year": "2026",
+      "description": [
+        "Reproduced and benchmarked multiple state-of-the-art CNN architectures for histopathology classification across colon and prostate cancer datasets.",
+        "Conducted controlled cross-architecture evaluation using accuracy, F1-score, precision, recall, and generalization gap analysis.",
+        "Analyzed contextual channel attention and gating mechanisms (e.g., ASPP, shared residual channel blocks) underlying existing histopathology networks.",
+        "Designing a lightweight CNN architecture targeting improved efficiency and generalization over existing models."
+      ],
+      "technologies": ["TensorFlow", "Keras", "NumPy", "OpenCV"],
+      "github": "https://github.com/chiranthk1704/Cancer_Detection_DL",
+      "image": ""
+    },
+    {
+      "title": "Bi-Temporal Change Detection Research Framework (EBCDNet Study)",
+      "year": "2025",
+      "description": [
+        "Engineered EBCDNet, achieving ~1.5–2% IoU improvement over existing models while maintaining faster inference speeds through optimized feature fusion.",
+        "Conducted quantitative error analysis on extreme class imbalance (<5% foreground pixels), identifying and mitigating failure modes in boundary localization.",
+        "Developed modular experimental scripts to validate model generalization across regional benchmarks, evaluating performance on the LEVIR-CD (US) and EGY-BCD (Egypt) datasets."
+      ],
+      "technologies": ["TensorFlow", "NumPy"],
+      "github": "https://github.com/chiranthk1704/Change-Detection-for-Satallite-Images",
+      "image": ""
+    },
+    {
+      "title": "Road Segmentation using Deep Learning",
+      "year": "2025",
+      "description": [
+        "Implemented attention-enhanced U-Net for aerial road segmentation with modular loss and augmentation strategies.",
+        "Improved IoU and F1-score over baseline U-Net through controlled architectural experimentation."
+      ],
+      "technologies": ["TensorFlow", "OpenCV"],
+      "github": "https://github.com/chiranthk1704/Road-Segmantation-with-Unet",
+      "image": ""
+    },
+    {
+      "title": "PLANTEFY: Plant Species Recognition",
+      "year": "2024",
+      "description": [
+        "Designed sequential and skip-connected CNN architectures for plant species classification.",
+        "Optimized preprocessing and deployed a lightweight Android application for real-time inference."
+      ],
+      "technologies": ["TensorFlow", "OpenCV", "Android"],
+      "github": "https://github.com/chiranthk1704/Plantify",
+      "image": ""
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "intro": "I am always interested in discussing research, deep learning, computer vision, and related opportunities. Feel free to reach out through email or connect with me on LinkedIn and GitHub.",
+  "links": [
+    {
+      "label": "Email",
+      "value": "chiranthk1704@gmail.com",
+      "href": "mailto:chiranthk1704@gmail.com",
+      "icon": "mail"
+    },
+    {
+      "label": "LinkedIn",
+      "value": "chiranth-k-1704",
+      "href": "https://www.linkedin.com/in/chiranth-k-8b803a308/",
+      "icon": "linkedin"
+    },
+    {
+      "label": "GitHub",
+      "value": "chiranthk1704",
+      "href": "https://github.com/chiranthk1704",
+      "icon": "github"
+    },
+    {
+      "label": "Instagram",
+      "value": "chiranth__k__",
+      "href": "https://www.instagram.com/chiranth__k__/",
+      "icon": "instagram"
+    }
+  ]
+}
