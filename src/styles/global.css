@@ -173,13 +173,14 @@ ol {
 /* Intro paragraph under a section title */
 .section-lead {
   color: var(--text-secondary);
-  max-width: 68ch;
+  max-width: 78ch;
   margin-top: -1.5rem;
   margin-bottom: 2.5rem;
 }
 
 /* Justify flowing prose so lines end flush on both edges,
-   matching the typesetting of an academic paper / resume */
+   matching the typesetting of an academic paper / resume.
+   No hyphenation — broken words look worse than slightly wider gaps. */
 .hero-intro,
 .section-lead,
 .about-text p,
@@ -188,8 +189,6 @@ ol {
 .project-description li,
 .resume-text {
   text-align: justify;
-  hyphens: auto;
-  -webkit-hyphens: auto;
 }
 
 /* Soft glass-like card used across the site */
