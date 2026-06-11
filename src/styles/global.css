@@ -170,10 +170,10 @@ ol {
   letter-spacing: -0.01em;
 }
 
-/* Intro paragraph under a section title */
+/* Intro paragraph under a section title — full width so its justified
+   edges line up exactly with the cards below it */
 .section-lead {
   color: var(--text-secondary);
-  max-width: 78ch;
   margin-top: -1.5rem;
   margin-bottom: 2.5rem;
 }
