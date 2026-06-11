@@ -178,6 +178,20 @@ ol {
   margin-bottom: 2.5rem;
 }
 
+/* Justify flowing prose so lines end flush on both edges,
+   matching the typesetting of an academic paper / resume */
+.hero-intro,
+.section-lead,
+.about-text p,
+.timeline-description,
+.timeline-highlights li,
+.project-description li,
+.resume-text {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 /* Soft glass-like card used across the site */
 .surface {
   background: var(--surface);
