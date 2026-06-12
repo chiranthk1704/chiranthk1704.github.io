@@ -178,19 +178,6 @@ ol {
   margin-bottom: 2.5rem;
 }
 
-/* Justify flowing prose so lines end flush on both edges,
-   matching the typesetting of an academic paper / resume.
-   No hyphenation — broken words look worse than slightly wider gaps. */
-.hero-intro,
-.section-lead,
-.about-text p,
-.timeline-description,
-.timeline-highlights li,
-.project-description li,
-.resume-text {
-  text-align: justify;
-}
-
 /* Soft glass-like card used across the site */
 .surface {
   background: var(--surface);
@@ -481,7 +468,7 @@ ol {
   position: absolute;
   top: 1.5rem;
   bottom: 1.5rem;
-  left: 34px;
+  left: 42px;
   width: 1px;
   background: var(--border);
 }
@@ -489,7 +476,7 @@ ol {
 .timeline-entry {
   position: relative;
   display: grid;
-  grid-template-columns: 68px 1fr;
+  grid-template-columns: 84px 1fr;
   gap: 1.5rem;
 }
 
@@ -499,9 +486,9 @@ ol {
 }
 
 .org-logo {
-  width: 68px;
-  height: 68px;
-  border-radius: 16px;
+  width: 84px;
+  height: 84px;
+  border-radius: 18px;
   border: 1px solid var(--border);
   /* logos are dark artwork; a white plate keeps them readable in dark mode */
   background: #fff;
@@ -826,19 +813,19 @@ ol {
   }
 
   .timeline::before {
-    left: 26px;
+    left: 30px;
   }
 
   .timeline-entry {
-    grid-template-columns: 52px 1fr;
+    grid-template-columns: 60px 1fr;
     gap: 1rem;
   }
 
   .org-logo,
   .org-logo-fallback {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
   }
 
   .org-logo-fallback {

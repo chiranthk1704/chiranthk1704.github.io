@@ -30,8 +30,8 @@ export default function OrgLogo({ logo, organization }) {
       className="org-logo"
       src={asset(logo)}
       alt={`${organization} logo`}
-      width="68"
-      height="68"
+      width="84"
+      height="84"
       loading="lazy"
       onError={() => setFailed(true)}
     />
