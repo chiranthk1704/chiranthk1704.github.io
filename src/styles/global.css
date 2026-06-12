@@ -463,14 +463,23 @@ ol {
 }
 
 /* the vertical line */
-.timeline::before {
+/* connecting line, drawn per entry so it runs logo-center to logo-center */
+.timeline-entry::before {
   content: "";
   position: absolute;
-  top: 1.5rem;
-  bottom: 1.5rem;
+  top: 0;
+  bottom: -2.25rem; /* bridges the gap to the next entry */
   left: 50px;
   width: 1px;
   background: var(--border);
+}
+
+.timeline-entry:first-child::before {
+  top: 50%; /* start at the first logo's center */
+}
+
+.timeline-entry:last-child::before {
+  bottom: 50%; /* stop at the last logo's center */
 }
 
 .timeline-entry {
@@ -515,14 +524,14 @@ ol {
 .about-edu {
   display: flex;
   gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
 }
 
 /* the education card column is narrow — cap its logo size */
 .about-edu .org-logo {
-  width: 72px;
-  height: 72px;
-  border-radius: 16px;
+  width: 84px;
+  height: 84px;
+  border-radius: 18px;
 }
 
 .timeline-content {
@@ -821,7 +830,7 @@ ol {
     font-size: 0.95rem;
   }
 
-  .timeline::before {
+  .timeline-entry::before {
     left: 34px;
   }
 
