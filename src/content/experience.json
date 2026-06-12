@@ -24,7 +24,7 @@
       "location": "Surathkal, India",
       "description": "Dual-domain deep learning research in Remote Sensing and Medical Imaging.",
       "highlights": [
-        "Conducted dual-domain deep learning research in Remote Sensing and Medical Imaging, leading to a first-author manuscript submission to IEEE J-STARS.",
+        "Conducted dual-domain deep learning research in Remote Sensing and Medical Imaging.",
         "Developed a controlled benchmarking framework for high-resolution building change detection on LEVIR-CD and EGY-BCD datasets, managing preprocessing for 6,000+ image pairs.",
         "Evaluated 8 widely used change detection architectures under a standardized evaluation framework to build consistent performance baselines."
       ],
