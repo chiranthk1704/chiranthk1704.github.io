@@ -351,16 +351,38 @@ ol {
   position: fixed;
   top: 0;
   left: 0;
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: #fff;
-  /* difference blend keeps the circle visible on dark and light themes */
+  width: 20px;
+  height: 20px;
+  /* difference blend keeps the mark visible on dark and light themes */
   mix-blend-mode: difference;
   pointer-events: none;
   z-index: 9999;
   opacity: 0;
   transition: opacity 0.2s ease;
+}
+
+/* the two bars of the "plus" mark */
+.cursor-dot::before,
+.cursor-dot::after {
+  content: "";
+  position: absolute;
+  background: #fff;
+}
+
+.cursor-dot::before {
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+}
+
+.cursor-dot::after {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  transform: translateX(-50%);
 }
 
 .hero-location {
