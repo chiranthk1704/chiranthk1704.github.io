@@ -11,7 +11,7 @@
       "description": "Research on multi-object tracking for traffic surveillance.",
       "highlights": [
         "Analyzed online and offline multi-object tracking methods for traffic surveillance, implementing and evaluating multiple tracking algorithms to understand identity preservation, track association, and failure modes in real-world CCTV data.",
-        "Contributing to a new dataset and comprehensive benchmark paper targeting CVPR 2027, advancing multi-object tracking research in urban traffic scenarios."
+        "Contributing to a new dataset and comprehensive benchmark paper targeting **CVPR 2027**, advancing multi-object tracking research in urban traffic scenarios."
       ],
       "links": []
     },

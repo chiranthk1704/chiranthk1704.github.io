@@ -617,6 +617,12 @@ ol {
   color: var(--accent);
 }
 
+/* emphasized phrase inside a highlight (from **double asterisks**) */
+.highlight {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .timeline-links {
   display: flex;
   gap: 1.25rem;

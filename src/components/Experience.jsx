@@ -2,6 +2,20 @@ import experience from "../content/experience.json";
 import OrgLogo from "./OrgLogo.jsx";
 import Icon from "./Icons.jsx";
 
+// Render text with **double-asterisk** segments shown in bold.
+// Lets you emphasize any phrase from the JSON, e.g. "**CVPR 2027**".
+function emphasize(text) {
+  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={i} className="highlight">
+        {part.slice(2, -2)}
+      </strong>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function Experience() {
   return (
     <section className="section container" id="experience">
@@ -41,7 +55,7 @@ export default function Experience() {
               {entry.highlights?.length > 0 && (
                 <ul className="timeline-highlights">
                   {entry.highlights.map((highlight) => (
-                    <li key={highlight.slice(0, 32)}>{highlight}</li>
+                    <li key={highlight.slice(0, 32)}>{emphasize(highlight)}</li>
                   ))}
                 </ul>
               )}
