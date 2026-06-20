@@ -3,6 +3,7 @@ import CustomCursor from "../components/CustomCursor.jsx";
 import Hero from "../components/Hero.jsx";
 import About from "../components/About.jsx";
 import Experience from "../components/Experience.jsx";
+import Publications from "../components/Publications.jsx";
 import Projects from "../components/Projects.jsx";
 import Resume from "../components/Resume.jsx";
 import Contact from "../components/Contact.jsx";
@@ -24,6 +25,7 @@ export default function Home({ theme, onToggleTheme }) {
         <Hero theme={theme} />
         <About />
         <Experience />
+        <Publications />
         <Projects />
         <Resume />
         <Contact />
