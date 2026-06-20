@@ -5,12 +5,12 @@
       "title": "Histopathological Cancer Classification",
       "year": "2026",
       "description": [
-        "Reproduced and benchmarked multiple state-of-the-art CNN architectures for histopathology classification across colon and prostate cancer datasets.",
+        "Reproduced and benchmarked multiple state-of-the-art lightweight architectures for histopathology classification across colon and prostate cancer datasets.",
         "Conducted controlled cross-architecture evaluation using accuracy, F1-score, precision, recall, and generalization gap analysis.",
         "Analyzed contextual channel attention and gating mechanisms underlying existing histopathology networks.",
-        "Designing a lightweight CNN architecture targeting improved efficiency and generalization over existing models."
+        "Designing a lightweight architecture targeting improved efficiency and generalization over existing models."
       ],
-      "technologies": ["TensorFlow", "Keras", "NumPy", "OpenCV"],
+      "technologies": ["PyTorch", "Keras", "NumPy", "OpenCV"],
       "github": "https://github.com/chiranthk1704/Cancer_Detection_DL",
       "image": ""
     },

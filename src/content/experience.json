@@ -10,8 +10,8 @@
       "location": "Bangalore, India",
       "description": "Research on multi-object tracking for traffic surveillance.",
       "highlights": [
-        "Investigated online and offline multi-object tracking methods for traffic surveillance, implementing and evaluating multiple tracking algorithms to understand identity preservation, track association, and failure modes in real-world CCTV data.",
-        "Contributing to an in-house traffic analytics platform at IISc, testing detection and tracking pipelines, debugging model failures, and making incremental improvements to enhance tracking consistency and system reliability."
+        "Analyzed online and offline multi-object tracking methods for traffic surveillance, implementing and evaluating multiple tracking algorithms to understand identity preservation, track association, and failure modes in real-world CCTV data.",
+        "Contributing to a new dataset and comprehensive benchmark paper targeting CVPR 2027, advancing multi-object tracking research in urban traffic scenarios."
       ],
       "links": []
     },
