@@ -2,7 +2,7 @@
   "intro": "My research has begun to translate into scholarly work. Below are manuscripts in preparation and under review.",
   "entries": [
     {
-      "status": "In Preparation",
+      "status": "Under Review",
       "authors": [
         "Sujan D*",
         "Chiranth Kumaraswamy*",
@@ -14,7 +14,7 @@
         "Bhat Geetalaxmi Jairam"
       ],
       "title": "EBCDNet — Enhanced Building Change Detection Network from High Resolution Remote Sensing Images",
-      "venue": "",
+      "venue": "Under review at Elsevier Results in Engineering",
       "note": "*Co-first authors (equal contribution).",
       "link": ""
     }
