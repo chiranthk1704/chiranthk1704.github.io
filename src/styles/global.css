@@ -339,50 +339,21 @@ ol {
   height: 100%;
 }
 
-/* ---------- Custom cursor (desktop only) ---------- */
-
-/* hide the native arrow while the circular cursor is active */
-.custom-cursor-active,
-.custom-cursor-active * {
-  cursor: none !important;
-}
-
+/* ---------- Trailing cursor follower (desktop only) ----------
+   The native cursor is untouched; this small circle lags behind it. */
 .cursor-dot {
   position: fixed;
   top: 0;
   left: 0;
-  width: 20px;
-  height: 20px;
-  /* difference blend keeps the mark visible on dark and light themes */
-  mix-blend-mode: difference;
+  width: 12px;
+  height: 12px;
+  /* white in dark mode, dark in light mode (see token below) */
+  border: 1.5px solid var(--text);
+  border-radius: 50%;
   pointer-events: none;
   z-index: 9999;
   opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-/* the two bars of the "plus" mark */
-.cursor-dot::before,
-.cursor-dot::after {
-  content: "";
-  position: absolute;
-  background: #fff;
-}
-
-.cursor-dot::before {
-  left: 0;
-  right: 0;
-  top: 50%;
-  height: 2px;
-  transform: translateY(-50%);
-}
-
-.cursor-dot::after {
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  transform: translateX(-50%);
+  transition: opacity 0.25s ease;
 }
 
 .hero-location {

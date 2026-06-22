@@ -145,8 +145,11 @@ export default function HeroBackground({ theme }) {
     const reducedMotion = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     ).matches;
+    // touch devices have no cursor to drive the grid, so the motion would
+    // just be a distraction behind the text — show one static frame instead
+    const noPointer = !window.matchMedia("(pointer: fine)").matches;
 
-    if (reducedMotion) {
+    if (reducedMotion || noPointer) {
       draw(0);
       window.addEventListener("resize", resize);
       return () => window.removeEventListener("resize", resize);
