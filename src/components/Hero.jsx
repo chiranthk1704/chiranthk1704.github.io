@@ -14,8 +14,7 @@ export default function Hero({ theme }) {
         <h1 className="hero-name">{hero.name}</h1>
 
         <p className="hero-headline">
-          {hero.headline}
-          <br />
+          <span className="hero-area">{hero.leadArea}</span> {hero.headlineMiddle}{" "}
           {hero.headlineAreas.map((area, i) => (
             <span key={area}>
               <span className="hero-area">{area}</span>
