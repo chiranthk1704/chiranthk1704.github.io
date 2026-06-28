@@ -1,8 +1,8 @@
 {
   "name": "Chiranth K",
   "location": "Bangalore, Karnataka, India",
-  "headline": "Deep Learning Researcher working across",
-  "headlineAreas": ["Computer Vision", "Medical Imaging", "Remote Sensing" ,"Multi-Object Tracking"],
+  "headline": "Computer Vision Researcher working across",
+  "headlineAreas": ["Medical Imaging", "Remote Sensing" ,"Multi-Object Tracking"],
   "intro": "I work on deep learning research problems — benchmarking architectures, analyzing failure modes, and building models that are understood rather than just trained. Currently a research intern at the Indian Institute of Science.",
   "buttons": [
     {
